@@ -1,4 +1,6 @@
-left off on this problem.  
+Below is my thought process. These problems are not easy and this took me many hours. Importantly, its the way to think that is crucial. 
+
+I think that usually for CP problems, especially the harders ones, you should be thinking for equally if not more time than actually coding. You need to just think and recognise patterns you found in previous questions.
 
 
 Very stuck on this problem. I see there are only 6 people who have solved it. A bit stuck on the problem. Brute force seems unfeasible given it will be really time inefficient.
@@ -17,7 +19,12 @@ I think that there are only 2 things you cna do with the umbrellas, extend to an
 Update 1;
 After some thought i have a new insight. I'd say store all the shaded areas as a list of starting and ending positions. Given that the extra umbrellas need to be connected to the main island, we should just extend from the main island left and right into new islands. I think we can guarantee that going into islands is good because you either gain the same area of get an extra bonus into going into a larger island that is connected into other places. 
 
-I just don't know where to go from here. Assuming we go from the largest island is a bad idea as there will be obviously cases that fail this. I think that potentially we could brute force from here. 
+I just don't know where to go from here. Assuming we go from the largest island is a bad idea as there will be obviously cases that fail this. I think that potentially we could brute force from here.
+
+Update 2;
+I think i might have a good insight. What if we instead try to brute force the last part by going from the smallest island across to the larger ones like a two pointer technique. We only go in the rigth direction as the previous island's iterations would have covered the possibility of going left. 
+
+I'm going to implement this hopefully.
 
 Possible topics:
 Dynamic programming 
