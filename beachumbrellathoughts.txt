@@ -1,1 +1,19 @@
 left off on this problem.  
+
+
+Very stuck on this problem. I see there are only 6 people who have solved it. A bit stuck on the problem. Brute force seems unfeasible given it will be really time inefficient.
+
+I think for subtask 2 i can try find a method that stores the islands and their sizes in a map. Then i can check the distances to these islands. 
+
+Basic idea for st 1 was from USACO solution to http://www.usaco.org/index.php?page=viewproblem2&cpid=104
+Needs improvement due to harsh memory limit.
+
+I think there aren't any extensively studied topics that this question links to. 
+
+Clearly given the memory check fail for the end tests it is clear that storing the values in a list is not efficient. I am guessing i just store starting and ending points in a list. 
+
+I think that there are only 2 things you cna do with the umbrellas, extend to an island or use them to make a larger island. 
+
+
+Possible topics:
+Dynamic programming 
