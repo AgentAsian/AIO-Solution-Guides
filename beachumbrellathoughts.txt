@@ -14,6 +14,10 @@ Clearly given the memory check fail for the end tests it is clear that storing t
 
 I think that there are only 2 things you cna do with the umbrellas, extend to an island or use them to make a larger island. 
 
+Update 1;
+After some thought i have a new insight. I'd say store all the shaded areas as a list of starting and ending positions. Given that the extra umbrellas need to be connected to the main island, we should just extend from the main island left and right into new islands. I think we can guarantee that going into islands is good because you either gain the same area of get an extra bonus into going into a larger island that is connected into other places. 
+
+I just don't know where to go from here. Assuming we go from the largest island is a bad idea as there will be obviously cases that fail this. I think that potentially we could brute force from here. 
 
 Possible topics:
 Dynamic programming 
