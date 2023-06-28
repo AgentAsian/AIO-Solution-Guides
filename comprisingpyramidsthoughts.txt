@@ -1,0 +1,13 @@
+When i was doing this problem, i have to admit that i did not reach a solution. My solution was to an extwent pretty close but the proper solution is just a step above
+
+My original idea is to let each point be the peak of the pyramid. This means that given this is the largest value, we should search to the left and right of it until we get a value that is one less than it. We can easily do this recursively. This will ALWAYS get the correct answer (i remember), but this is where a major problem lies. Given that this is a harder problem it means there is a lot of time pressure. Hence we resort to dynamic programming which basically means that we get this inefficient solution and make it better.
+
+Instead of consistantly searching and calculating over and over again, why don't we just calculate at the beginning. 
+
+If you look at the solution code, you can see there are 2 for loops after the inputting loop. Both these loops find the largest increasing subsequnce to the left and right of a value. This is unintuative to understand which i similarly experinced reading the code. However, I'll try to explain the code to the best of my ability. There is a list that we are going to use that stores the length of the greatest increasing subsequence it is apart of. if we have 1 2 3 2 4, 1 will have a value of 1 in the dictionary and 2 will have a value of 2 and 3 will have a value of 3 and then the next 2 will have a value of 2 (this is because the longest subsequence it is apart of if 1-2) then 4 will have a value of 4 since it is apart of 1-2-3-4. This explains why we have         largeL[keys[i]] = largeL[keys[i] - 1] + 1;
+
+Once we have the largest increasing subsequences then we just find the minimum of both the left and right largest increasing subsequences and minus 1 for overlap and this leaves the biggest pyramid. Minus this from n and we have arrived at an answer.
+
+
+Topics
+  DP, dfs
