@@ -13,3 +13,7 @@ Ok so i have some new ideas. if we know that there is radius R, cant we just mov
 I think that this will work and im excited. Once a house leaves the block we check if a pamphlete with this sum is available and if not just binary search the next possible etc etc.
 
 Also i saw the time limit is a whole 3 seconds which is really large, a bit surprised honestly.
+
+
+update 11:19
+Ok i think that this approach would need some improvement. there is no way i'm iterating through like l when its a billion haha. I will just jump to the next smallest instead of incrementing by 1
