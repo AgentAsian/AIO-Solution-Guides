@@ -1,0 +1,7 @@
+start time
+11:11
+Ok so i have just read the question and some thoughts come to mind.
+
+Obviously i can just brute force and im hoping that it works. I could use binary search with this. However, this is not ideal. 
+
+I'll keep thinking until i get insight.
