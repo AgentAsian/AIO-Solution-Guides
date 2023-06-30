@@ -1,7 +1,15 @@
 start time
-11:11
+11:11 aim 12:11
 Ok so i have just read the question and some thoughts come to mind.
 
 Obviously i can just brute force and im hoping that it works. I could use binary search with this. However, this is not ideal. 
 
 I'll keep thinking until i get insight.
+
+update 11:13
+
+Ok so i have some new ideas. if we know that there is radius R, cant we just move a giant block of size 2*R+1 across and when we see a new store just add it to the houses in the block
+
+I think that this will work and im excited. Once a house leaves the block we check if a pamphlete with this sum is available and if not just binary search the next possible etc etc.
+
+Also i saw the time limit is a whole 3 seconds which is really large, a bit surprised honestly.
