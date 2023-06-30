@@ -1,0 +1,15 @@
+This question was really fun for me.
+
+
+Initially, it seemed like an easy flood fill question that i learnt before. However, if you realise it, k can be excessively large. 
+
+My first model only passed the frist subtest and failed the rest due to time and memory limits. My next idea if to think that k can only be as large as e which was my next addition
+This allowed the program to get 90 on the question. This was really good however the last cases kept TLE
+
+This came to my next idea. If the steps left on a node is even, then can't we just go back and fourth between two nodes to end on this specific node? 
+
+So i use if steps modulus 2 is 0, then we add it to the possible places. 
+
+However, it is possible that a node can have both even and odd number of steps on it such as seen in a triangle. Thus we check if this node has been even before and if it has then skip it. Then we check if it has been odd and if it has skip it. Otherwise search that point.
+
+a big annoyance was the realisation that DFS should not be used and BFS need to be used instead otherwise it will be really really inefficient and just break
