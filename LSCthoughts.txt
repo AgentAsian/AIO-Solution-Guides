@@ -21,3 +21,6 @@ Ok i think that this approach would need some improvement. there is no way i'm i
 update 11:31 
 still doing the brute force stuffs
 I think that binary search is not feasible and probably explains the time limit lol
+
+update 11:57
+done coding and it doesn't work time to debug oof.
