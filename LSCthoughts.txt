@@ -17,3 +17,7 @@ Also i saw the time limit is a whole 3 seconds which is really large, a bit surp
 
 update 11:19
 Ok i think that this approach would need some improvement. there is no way i'm iterating through like l when its a billion haha. I will just jump to the next smallest instead of incrementing by 1
+
+update 11:31 
+still doing the brute force stuffs
+I think that binary search is not feasible and probably explains the time limit lol
