@@ -14,3 +14,7 @@ In the AIO i suggest breezing past 1-3 in 30 minutes then hopefully passing 4 wh
 I'm still learning to master the 5-6 questions to do fast. Usually i may not finish them ever. I suggest if you want to actually try for the AIO you begin to post your answers online and write up answers as it allows you to reflect. 
 
 ## ask stuff in discussions and i'll try answer. If you have any insight on the questions i'm stuck on also talk there
+
+# PS: If you are doing a q and wanna see my answers i suggest looking at the thoughts file that details what i thought about the question and how my ideas formed
+
+If you're confused just ask in discussions. its a win-win since i get motivated when people find my resources useful
