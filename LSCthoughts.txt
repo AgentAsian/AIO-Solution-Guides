@@ -24,3 +24,6 @@ I think that binary search is not feasible and probably explains the time limit 
 
 update 11:57
 done coding and it doesn't work time to debug oof.
+
+update 12:10
+i wont be able to finish by the aim time. this program is taking way to long to implement.
